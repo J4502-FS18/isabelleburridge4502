@@ -64,7 +64,7 @@ body{
 }
 
 #nav a:hover, a:active {
-    background-color: #7a991a;
+    background-color: black; /*#7a991a;*/
 }
 
 .caption {
@@ -82,7 +82,6 @@ body{
     font-size: 0.8em;
     border-top: 1px solid black;
 }
-
 
 
 .nav ul {
