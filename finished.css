@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5rem
+	font-size: 1.5rem;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif, Georgia, "Times New Roman";
 
@@ -51,8 +51,8 @@ body{
 ul {
 	list-style: none;
 	padding: 0;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
+	margin-left:0 auto;
+	margin-right:0 auto;
 }
 
 #nav {
@@ -83,7 +83,6 @@ ul {
 }
 
 li {
-    float: center;
 		width: 100%;
 }
 
@@ -98,7 +97,6 @@ li a {
 #nav a:link, a:visited {
 	display:block;
     color: #F08080;
-    background-color: #pink;
     font-weight: bolder;
     text-align:center;
     text-decoration: none;
@@ -129,12 +127,11 @@ li a {
 ul {
 	color: black;
 	font-family: 'Open Sans Condensed', sans-serif, Georgia, "Times New Roman";
-	font-style: bold;
 	display: flex;
 	flex-direction:
 }
 
-.container {
+.container{
 display: flex;
 flex-direction: column;
 }
