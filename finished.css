@@ -45,7 +45,7 @@ body{
     width: 95%;
     background-color: #ffffff;
     margin: 0 auto;
-		flex: center; 
+		text-align: center;
 }
 
 ul {
@@ -84,6 +84,7 @@ ul {
 
 li {
     float: left;
+		text-align: center;
 }
 
 li a {
