@@ -3,7 +3,7 @@ html {
 }
 
 p {
-    font-family: 'Open Sans Condensed', sans-serif, Georgia, "Times New Roman";
+  font-family: 'Open Sans Condensed', sans-serif, Georgia, "Times New Roman";
 	font-size: 1rem;
 	line-height: 1.5rem;
 	text-align: center;
@@ -128,6 +128,8 @@ ul {
 	color: black;
 	font-family: 'Open Sans Condensed', sans-serif, Georgia, "Times New Roman";
 	font-style: bold;
+	display: flex;
+	flex-direction: 
 }
 
 .container {
