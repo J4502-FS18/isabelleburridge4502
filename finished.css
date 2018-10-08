@@ -135,6 +135,7 @@ ul {
 .container {
 display: flex;
 flex-direction: column;
+letter-spacing: 3px
 }
 
 @media (min-width: 600px) {
