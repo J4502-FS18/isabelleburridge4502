@@ -124,12 +124,12 @@ li a {
     border-top: 1px solid black;
 }
 
-ul {
+/*ul {
 	color: black;
 	font-family: 'Open Sans Condensed', sans-serif, Georgia, "Times New Roman";
 	display: flex;
 	flex-direction:
-}
+} */
 
 .container{
 display: flex;
