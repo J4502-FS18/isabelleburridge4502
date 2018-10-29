@@ -51,8 +51,8 @@ body{
 ul {
 	list-style: none;
 	padding: 0;
-	margin-left:0 auto;
-	margin-right:0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #nav {
@@ -151,7 +151,7 @@ flex-direction: column;
 	}
 }
 
-@media screen and (min-width 600px) {
+@media screen and (min-width 600px){
 	#container {
 		width: 80%;
 	}
@@ -168,7 +168,7 @@ flex-direction: column;
 	}
 }
 
-@media screen and (min-width 800px) {
+@media screen and (min-width 800px){
 	.nav {
 		margin-right: auto;
 	}
@@ -202,7 +202,6 @@ div ul li {
 	.joke {
 		grid-area: c;
 	}
-
 }
 
 @media screen and (min-width 1200px) {
