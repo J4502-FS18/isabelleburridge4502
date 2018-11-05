@@ -2,6 +2,38 @@ html {
 	font-size: 100%
 }
 
+nav ul li {
+    display: block;
+    border-top: 1px #79896d solid;
+}
+
+
+nav a {
+    color: #f8ecc2;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    background-color: white;
+    margin: 0;
+    padding: 0 10px;
+		text-align: center;
+}
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+nav ul {
+display: none;
+}
+
 p {
   font-family: 'Open Sans Condensed', sans-serif, Georgia, "Times New Roman";
 	font-size: 1rem;
@@ -20,21 +52,12 @@ h1, h2, h3, h4, h5, h6 {
 		text-align: center;
 }
 
-.menu-trigger {
-    order: 1;
-    font-size: 1.75em;
-    width: 2em;
-}
-
-nav ul {
-display: none;
-}
-
 h1 {
 	font-size: 2.5rem;
 	text-align: center;
 	font-family: 'Abril Fatface', 'Open Sans Condensed', sans-serif, Georgia;
-
+	margin: auto;
+	order:2;
 }
 
 h2 {
@@ -169,6 +192,11 @@ display: flex;
 flex-direction: column;
 }
 
+.joke {
+	display: block;
+}
+
+
 @media (min-width: 600px) {
 
 	.container {
@@ -205,14 +233,6 @@ flex-direction: column;
 	.nav {
 		margin-right: auto;
 	}
-}
-
-div ul li {
-	margin: 5px;
-}
-
-.joke {
-	display: block;
 }
 
 @media screen and (min-width: 1000px) {
