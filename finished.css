@@ -66,30 +66,6 @@ h2 {
 
 }
 
-@media screen and (min-width: 700px) {
-
-	nav ul {
-		display: flex;
-	}
-
-	nav ul li {
-		border-top: none;
-	}
-
-	.menu-tirgger {
-		display: none;
-	}
-
-	header h1 {
-		order: 1;
-	}
-
-	nav {
-		order: 2;
-	}
-
-}
-
 body {
 	background-color: rgba(255, 99, 71, 0.5);
 	text-align: center;
@@ -270,4 +246,29 @@ flex-direction: column;
 		"a a b"
 		". c c";
 	}
+}
+
+
+@media screen and (min-width: 700px) {
+
+	nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		border-top: none;
+	}
+
+	.menu-tirgger {
+		display: none;
+	}
+
+	header h1 {
+		order: 1;
+	}
+
+	nav {
+		order: 2;
+	}
+
 }
