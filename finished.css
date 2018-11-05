@@ -25,9 +25,9 @@ header {
 }
 
 .menu-trigger {
-    order: 1;
-    font-size: 1.75em;
-    width: 2em;
+	order:1;
+  font-size:1.75em;
+  width:2em;
 }
 
 nav ul {
